@@ -1,0 +1,24 @@
+git init 로컬 저장소 만들기
+git status 작업 디렉터리 상태 확인
+git add (파일)
+git commit 
+git log
+git tag
+   -l
+   -d
+
+git diff 비교하는거
+git reset 
+   -- soft add만 되어있는 상태 : 커밋 해야함
+   -- mixed add를 해야하는 상태
+   -- hard 완전히 파일 내용까지 사라짐
+git stash 임시저장
+   -m "메시지"
+   list : 내역 조회
+   apply(스태시) : 적용
+   drop(스태시) : 삭제
+git branch
+   (브랜치 이름)
+  -d(브랜치 이름)
+git checkout (브랜치 이름)
+git rebase (브랜치 이름) 재배치
