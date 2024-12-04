@@ -1,0 +1,22 @@
+git clone (ssh 주소) : 클론할 때 남의 거
+
+내꺼 연결: git remote add origin (ssh 주소) - gi remote로 확인
+[ git remote rename(기존 ) (바꿀거) , git remote remove (지울거) ]
+
+밀어넣기: 파일을 추가하고 ->3줄 명령어 
+1. git remote add origin (ssh 주소)
+2. git branch -M (브랜치 이름)
+3. it push -u (원격 저장소 이름) (브랜치 이름)
+(이후에는 git push 이용)
+
+일단 가져만 오기 : git fetch [git status로 상태 확인 가능] 
+origin/main 으로 체크아웃 하여 커밋 확인 가능
+병합: main으로 돌아와 origin/main 병합
+
+가져와서 합치기 :git pull
+
+풀 리퀘스트: 남의 계정 포크-> 내 레포지에 포크된거에 들어가서 주소를 git clone (주소)
+-> cd (경로) [그사람 포크 이름이 hah면 이거 입력]
+-> git branch (브랜치 이름) -> git checkout (브랜치 이름)
+-> 파일을 수정시킨다 저장하고 (add, commit)
+-> git push [origin(원격저장소)] (브랜치 이름)
